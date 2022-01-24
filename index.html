@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <section class="pai container white-bg"> 
+                <div class='paddingInterno'>
+                    <h1>CheckList</h1>
+                    <form class="form" onsubmit="return false">
+                        <label for="tarefa" class="margin0auto">Escreva o nome da tarefa que deseja inserir:</label>
+                        <div class="inputBox">
+                            <input type="text" id="tarefa" class="tarefa" name="tarefa" autocomplete="off" required>
+                            <button>Enviar</button>
+                        </div>
+                    </form>
+                    <div class="boxList"><ul class="list"></ul></div>
+                </div>
+    </section>
+
+    <script src="./assets/js/scripts.js"></script>
+</body>
+</html>
