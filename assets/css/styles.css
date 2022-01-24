@@ -18,6 +18,7 @@ html {
 body {
     /* background: url(./backgroundsvg.svg); */
     background: url(./img/backgroundsvg.svg);
+    height: 100vh;
 }
 
 /* Classes reutilizaveis */
@@ -29,7 +30,7 @@ body {
     font-size: 2.3rem;
     background: #fff;
     margin: 10rem auto;
-    padding: 3rem 1.5rem;
+    padding: 1.7rem 1.5rem;
     min-width: 44vw;
     max-width: 60rem;
     border-radius: 1rem;
@@ -152,6 +153,20 @@ label {
     margin-left: 5%;
 }
 
+.footer-main {
+    height: 3rem;
+    background: #fff;
+    font-size: 2rem;
+    text-align: center;
+    min-width: 100%;
+}
+.footer-main p {
+    padding-top: 1rem;
+}
+.heart {
+    color: rgb(207, 18, 18);
+}
+
 @media (max-width: 450px) {
     .list div li {
         font-size: 1.6rem;
@@ -161,6 +176,10 @@ label {
     .inputMdn {
         font-size: 1.6rem;
         width: 60%;
+    }
+
+    .footer-main {
+        font-size: 1.5rem;
     }
 }
 
